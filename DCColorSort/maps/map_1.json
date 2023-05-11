@@ -1,0 +1,5 @@
+{
+    "num_tubes": 3,
+    "tube_capacity": 4,
+    "tubes_layout": [[1,1,0], [0,0,1], [0,1]]
+}
