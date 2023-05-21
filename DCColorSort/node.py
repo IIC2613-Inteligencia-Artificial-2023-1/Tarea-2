@@ -9,7 +9,7 @@ class Node:
         '''
             Parameters:
                 search_state (State) : current state of the game.
-                parent (State) : parent node of the current one.
+                parent (Node) : parent node of the current one.
                 action (list(int, int)) : list that contains the action performed in order to reach this state (from_idx, to_idx).
 
         '''
