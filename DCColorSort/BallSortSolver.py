@@ -8,12 +8,12 @@ from binary_heap import BinaryHeap
 from node import Node
 import heuristics
 
-HEURISTIC_PONDERATOR = 10
+HEURISTIC_PONDERATOR = 1
 VISUALIZATION = False
 MOVING_SPEED = 15
 
 # Replace with the map to be tested
-GAME_MAP = "map_2"
+GAME_MAP = "map_1"
 
 # Compute the map's absolute path
 relative_map_path = os.path.join("maps", f"{GAME_MAP}.json")
